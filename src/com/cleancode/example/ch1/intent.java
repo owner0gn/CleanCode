@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class intent {
+	// ex1.
 	public List<int[]> getThem(){
 		List<int[]> list1 = new ArrayList<int[]>();
 		for( int[] x : theList ) {
@@ -14,6 +15,7 @@ public class intent {
 		}
 	}
 	
+	// ex1. solve
 	public List<int[]> getFlaggedCells(){
 		List<int[]> flaggedCells = new ArrayList<int[]>();
 		for(int[] cell : gameBoard) {
